@@ -11,7 +11,7 @@ import paypal from "../../public/paypal.svg";
 import Amax from "../../public/Amax.svg";
 import applepay from "../../public/applepay.svg";
 import linkedin from "../../public/linkedin.svg";
-import insta from "../../public/insta_icon.svg";
+import insta from "../../public/Insta_icon.svg";
 
 export default function Footer() {
   const [isMobile, setIsMobile] = useState(false);
