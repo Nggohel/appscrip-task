@@ -1,0 +1,52 @@
+.accordion {
+  border-top: 1px solid #e5e5e5;
+  border-radius: 4px;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+  width: 275px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-between;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.headertitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header:hover {
+}
+
+.body {
+  padding: 10px 20px;
+  /* background: #fff; */
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .accordion {
+    width: 100%;
+  }
+  .header {
+    padding: 10px;
+  }
+  .body {
+    padding: 5px 10px;
+  }
+}

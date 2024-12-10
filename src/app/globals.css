@@ -24,6 +24,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  overflow: hidden; /* This will completely disable scrolling */
+}
+
+::-webkit-scrollbar {
+  display: none; /* Hides scrollbar for WebKit browsers like Chrome, Safari, and Edge */
+}
+
+body {
+  -ms-overflow-style: none; /* Hides scrollbar for Internet Explorer and Edge */
+  scrollbar-width: none; /* Hides scrollbar for Firefox */
+}
+.header-img {
+  width: 100vw !important;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

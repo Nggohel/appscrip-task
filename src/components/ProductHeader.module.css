@@ -1,0 +1,66 @@
+.product-header {
+  text-align: center;
+  padding: 60px 75px;
+  color: #252020;
+  /* border: 1px solid; 40px top and bottom margin */
+}
+
+.product-header h1 {
+  font-family: Simplon Norm;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.product-header p {
+  /* Ensures good readability */
+  color: #555; /* Optional: Text color */
+  font-family: Simplon Norm;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .product-header {
+    padding: 40px 0;
+  }
+  .product-header h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .product-header p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 599px) {
+  .product-header {
+    padding: 0px 0px;
+  }
+  .product-header h1 {
+    font-family: Simplon Norm;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .product-header p {
+    font-family: Simplon Norm;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 0px 16px;
+  }
+}

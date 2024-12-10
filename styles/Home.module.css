@@ -1,0 +1,4 @@
+.logo {
+  width: 100%; /* Default for mobile screens */
+  height: auto; /* Maintain aspect ratio */
+}

@@ -1,0 +1,40 @@
+.filters {
+  padding: 20px 20px 20px 0px;
+  border-radius: 8px;
+}
+.customizable {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.checkbox {
+  height: 50px;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .filters {
+    width: 100%;
+    max-width: 232px;
+    padding: 10px;
+    border-radius: 8px;
+    padding-left: 40px;
+  }
+  .customizable {
+    justify-content: space-between;
+    padding-right: 55px;
+  }
+  .checkbox {
+    height: 40px;
+  }
+}
+@media (max-width: 599px) {
+  .filters {
+    display: none; /* Hidden by default */
+    width: 100%;
+    max-width: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+}
